@@ -29,5 +29,13 @@ heroes = {"flying" : "superman", "speedster" : "flash", "water" : "aquaman"}
 # del heroes["water"]         this deletes the key with it's value
 # print(heroes)
 
-heroes_copy = heroes.copy()
-print(heroes_copy)
+# heroes_copy = heroes.copy()    this make a copy of referenced array or data 
+# print(heroes_copy)
+
+keys = ["flying", "speedster", "water"]
+default_value = "badpersons"
+new_dictionary = dict.fromkeys(keys, default_value)
+# print(new_dictionary)
+
+new_dictionary02 = dict.fromkeys(keys,keys)
+print(new_dictionary02)
