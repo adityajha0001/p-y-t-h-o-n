@@ -34,8 +34,8 @@ heroes = {"flying" : "superman", "speedster" : "flash", "water" : "aquaman"}
 
 keys = ["flying", "speedster", "water"]
 default_value = "badpersons"
-new_dictionary = dict.fromkeys(keys, default_value)
-# print(new_dictionary)
+# new_dictionary = dict.fromkeys(keys, default_value)
+# # print(new_dictionary)
 
 new_dictionary02 = dict.fromkeys(keys,keys)
 print(new_dictionary02)
