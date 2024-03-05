@@ -10,6 +10,6 @@ city = ("agra", "mumbai", "delhi")
 # slice = city[1:2]
 # print(slice)
 
-people = ("aditya", "vishal", "rohit")
-addition = city  + people
-print(addition)
+# people = ("aditya", "vishal", "rohit")
+# addition = city  + people
+# print(addition)
